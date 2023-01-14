@@ -3,4 +3,95 @@
   padding: 0;
 }
 
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1140px !important;
+}
+
+ol, ul, li {
+  list-style: none !important;
+  margin: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.first-slide-wrapper {
+  background: linear-gradient(0deg, rgba(250, 236, 194, 0.1), rgba(250, 236, 194, 0.1)), url("../../img/first-slide.jpg");
+  background-size: 100%;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.first-slide {
+  height: 100vh;
+}
+.first-slide .navigation-bar {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  font-family: "Dela Gothic One", cursive;
+  font-style: normal;
+  font-weight: 400;
+  border-bottom: 1px solid rgba(161, 161, 161, 0.85);
+}
+.first-slide .navigation-bar * {
+  color: #fff;
+}
+.first-slide .navigation-bar > * {
+  display: flex;
+}
+.first-slide .navigation-bar .logo {
+  font-size: 42px;
+}
+.first-slide .navigation-bar .links {
+  gap: 40px;
+  justify-content: flex-end;
+}
+.first-slide .navigation-bar .links .link {
+  font-size: 20px;
+}
+.first-slide .first-slide-heading {
+  height: auto;
+  gap: 1rem;
+}
+.first-slide .first-slide-heading h1 {
+  color: #fff;
+  font-family: "Zen Dots";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6.75rem;
+}
+.first-slide .first-slide-heading h2 {
+  color: #fff;
+  font-family: "Dela Gothic One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.first-slide .first-slide-heading .prices-button {
+  font-family: "Dela Gothic One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.625rem;
+  color: #000;
+  height: 70px;
+  background: #F7E6A6;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  margin-top: 34px;
+  transition: background 0.2s ease-in-out;
+}
+.first-slide .first-slide-heading .prices-button:hover {
+  background: hsl(47deg, 38%, 67%);
+}
+
 /*# sourceMappingURL=style.css.map */
