@@ -17,6 +17,11 @@ a {
   text-decoration: none !important;
 }
 
+@media (max-width: 992px) {
+  .first-slide-wrapper .first-slide h1 {
+    font-size: 2em !important;
+  }
+}
 .first-slide-wrapper {
   background: linear-gradient(0deg, rgba(250, 236, 194, 0.1), rgba(250, 236, 194, 0.1)), url("../img/first-slide.jpg");
   background-size: 100%;
@@ -96,8 +101,8 @@ a {
 }
 
 .about-us-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .about-us-container .about-us-text .about-us-heading {
   font-family: "Dela Gothic One", cursive;
@@ -114,6 +119,48 @@ a {
 }
 .about-us-container .about-us-image img {
   border-radius: 5px;
+}
+
+.prices-container-wrapper {
+  background: #f9f9f9;
+}
+.prices-container-wrapper .prices-container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.prices-container-wrapper .prices-container .prices-title-wrapper {
+  margin-bottom: 3.25rem;
+}
+.prices-container-wrapper .prices-container .prices-title-wrapper .prices-container-title {
+  font-size: 2rem;
+  font-family: "Dela Gothic One";
+}
+.prices-container-wrapper .prices-container .row .price-card-wrapper .price-card {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  aspect-ratio: 1/1;
+}
+.prices-container-wrapper .prices-container .row .price-card-wrapper .price-card .item-title {
+  padding: 0.5rem;
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  font-family: "Dela Gothic One";
+  border-radius: 5px 5px 0 0;
+  background: lime;
+  height: 62%;
+  text-align: center;
+  align-content: center;
+  padding: 1rem;
+}
+.prices-container-wrapper .prices-container .row .price-card-wrapper .price-card .item-price {
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  border-radius: 0 0 5px 5px;
+  align-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
