@@ -22,6 +22,11 @@ a {
     font-size: 2em !important;
   }
 }
+@media (max-width: 768px) {
+  .address-map {
+    height: 300px !important;
+  }
+}
 .first-slide-wrapper {
   background: linear-gradient(0deg, rgba(250, 236, 194, 0.1), rgba(250, 236, 194, 0.1)), url("../img/first-slide.jpg");
   background-size: 100%;
@@ -122,7 +127,9 @@ a {
 }
 
 .prices-container-wrapper {
-  background: #f9f9f9;
+  border-top: 1px solid #dce1e6;
+  border-bottom: 1px solid #dce1e6;
+  background: #edeef0;
 }
 .prices-container-wrapper .prices-container {
   padding-top: 4rem;
@@ -161,6 +168,99 @@ a {
   font-family: "Montserrat";
   border-radius: 0 0 5px 5px;
   align-content: center;
+}
+
+.tech-container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.tech-container .tech-text .tech-heading {
+  font-family: "Dela Gothic One", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.tech-container .tech-text .tech-description {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 2.375rem;
+}
+.tech-container .tech-list {
+  gap: 1rem;
+}
+.tech-container .tech-list .tech-card {
+  border: 1px solid #dce1e6;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: 100px;
+  padding: 1rem;
+  gap: 1rem;
+}
+.tech-container .tech-list .tech-card .tech-card-info .tech-card-name {
+  font-family: "Dela Gothic One";
+  font-size: 1rem;
+}
+.tech-container .tech-list .tech-card .tech-card-info .tech-card-description {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  color: #666;
+}
+
+.address-container-wrapper {
+  background: #212118;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.address-container-wrapper .row .address-map {
+  height: 500px;
+}
+.address-container-wrapper .row .address-info .address-info-title {
+  color: #F7E6A6;
+  font-family: "Dela Gothic One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.address-container-wrapper .row .address-info .address-info-description {
+  color: #eee;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 2.375rem;
+}
+
+.social-links-wrapper {
+  background: #212118;
+}
+.social-links-wrapper .social-links-container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.social-links-wrapper .social-links-container .social-links-title {
+  color: #F7E6A6;
+  font-size: 2.5rem;
+  font-family: "Dela Gothic One";
+}
+.social-links-wrapper .social-links-container .social-links-description {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+}
+.social-links-wrapper .social-links-container .social-links {
+  gap: 0.75rem;
+}
+.social-links-wrapper .social-links-container .social-links .social-link img {
+  height: 5rem;
+}
+
+footer {
+  font-family: "Anonymous Pro", monospace;
+  font-size: 1rem;
+  background: #36362F;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
