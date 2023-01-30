@@ -147,13 +147,13 @@ a {
   padding-bottom: 4rem;
 }
 .about-us-container .about-us-text .about-us-heading {
-  font-family: "Dela Gothic One", cursive;
+  font-family: "Dela Gothic One";
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
 }
 .about-us-container .about-us-text .about-us-description {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 300;
   font-size: 1.5rem;
