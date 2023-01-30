@@ -19,18 +19,52 @@ a {
 
 @media (max-width: 992px) {
   .first-slide-wrapper .first-slide h1 {
-    font-size: 2em !important;
+    font-size: 5rem !important;
+  }
+  .first-slide-wrapper .first-slide h2 {
+    font-size: 1.325rem !important;
+  }
+  .first-slide-wrapper .first-slide .prices-button {
+    font-size: 1.25rem !important;
+  }
+  .first-slide-wrapper .navigation-bar .logo {
+    justify-self: center;
+  }
+  .first-slide-wrapper .navigation-bar .links {
+    display: none !important;
   }
 }
 @media (max-width: 768px) {
+  .first-slide-wrapper .first-slide h1 {
+    font-size: 2rem !important;
+  }
+  .first-slide-wrapper .first-slide h2 {
+    font-size: 1.325rem !important;
+  }
+  .first-slide-wrapper .first-slide .prices-button {
+    font-size: 1.25rem !important;
+  }
   .address-map {
     height: 300px !important;
   }
+  .big-title {
+    font-size: 1.5rem !important;
+  }
+  .smaller-text {
+    font-size: 1.125rem !important;
+    line-height: initial !important;
+  }
+}
+@media (max-width: 576px) {
+  .first-slide-wrapper .first-slide h1 {
+    font-size: 2.5rem !important;
+  }
 }
 .first-slide-wrapper {
-  background: linear-gradient(0deg, rgba(250, 236, 194, 0.1), rgba(250, 236, 194, 0.1)), url("../img/first-slide.jpg");
-  background-size: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/first-slide.JPG");
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   min-height: 100vh;
   width: 100%;
 }
@@ -44,7 +78,7 @@ a {
   align-items: center;
   justify-content: space-around;
   height: 100px;
-  font-family: "Dela Gothic One", cursive;
+  font-family: "Dela Gothic One";
   font-style: normal;
   font-weight: 400;
 }
@@ -55,6 +89,7 @@ a {
   display: flex;
 }
 .first-slide-wrapper .navbar-wrapper .navbar-container .navigation-bar .logo {
+  font-family: "Swiss 721 Black Extended BT";
   font-size: 42px;
 }
 .first-slide-wrapper .navbar-wrapper .navbar-container .navigation-bar .links {
@@ -74,7 +109,9 @@ a {
 }
 .first-slide-wrapper .first-slide .first-slide-heading h1 {
   color: #fff;
-  font-family: "Zen Dots";
+  -webkit-text-stroke: 2px #fff;
+  -webkit-text-fill-color: transparent;
+  font-family: "Swiss 721 Black Extended BT";
   font-style: normal;
   font-weight: 400;
   font-size: 6.75rem;
@@ -135,33 +172,37 @@ a {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-.prices-container-wrapper .prices-container .prices-title-wrapper {
-  margin-bottom: 3.25rem;
-}
 .prices-container-wrapper .prices-container .prices-title-wrapper .prices-container-title {
   font-size: 2rem;
   font-family: "Dela Gothic One";
 }
-.prices-container-wrapper .prices-container .row .price-card-wrapper .price-card {
+.prices-container-wrapper .prices-container .prices-note {
+  font-family: "Montserrat";
+  font-size: 1.25rem;
+}
+.prices-container-wrapper .prices-container .prices-note a {
+  color: #e63877;
+}
+.prices-container-wrapper .prices-container .price-cards .price-card-wrapper .price-card {
   background: #fff;
   border-radius: 5px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   aspect-ratio: 1/1;
 }
-.prices-container-wrapper .prices-container .row .price-card-wrapper .price-card .item-title {
+.prices-container-wrapper .prices-container .price-cards .price-card-wrapper .price-card .item-title {
   padding: 0.5rem;
   display: grid;
   place-items: center;
   font-size: 1.5rem;
   font-family: "Dela Gothic One";
   border-radius: 5px 5px 0 0;
-  background: lime;
+  background: linear-gradient(45deg, #e63877, #dad17a);
   height: 62%;
   text-align: center;
   align-content: center;
   padding: 1rem;
 }
-.prices-container-wrapper .prices-container .row .price-card-wrapper .price-card .item-price {
+.prices-container-wrapper .prices-container .price-cards .price-card-wrapper .price-card .item-price {
   display: grid;
   place-items: center;
   font-size: 1.5rem;
@@ -175,13 +216,13 @@ a {
   padding-bottom: 4rem;
 }
 .tech-container .tech-text .tech-heading {
-  font-family: "Dela Gothic One", cursive;
+  font-family: "Dela Gothic One";
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
 }
 .tech-container .tech-text .tech-description {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 300;
   font-size: 1.5rem;
@@ -209,7 +250,7 @@ a {
 }
 
 .address-container-wrapper {
-  background: #212118;
+  background: #282A35;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
@@ -231,13 +272,12 @@ a {
   font-size: 1.5rem;
   line-height: 2.375rem;
 }
+.address-container-wrapper .row .address-info .address-info-description a {
+  color: #F7E6A6;
+}
 
 .social-links-wrapper {
-  background: #212118;
-}
-.social-links-wrapper .social-links-container {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  background: #282A35;
 }
 .social-links-wrapper .social-links-container .social-links-title {
   color: #F7E6A6;
@@ -259,7 +299,7 @@ a {
 footer {
   font-family: "Anonymous Pro", monospace;
   font-size: 1rem;
-  background: #36362F;
+  background: #343745;
   color: #fff;
 }
 
