@@ -74,6 +74,9 @@ a {
   .first-slide-wrapper .first-slide .first-slide-h2 .inline {
     flex-direction: column;
   }
+  .social-links-container .social-links .social-link img {
+    height: 4rem !important;
+  }
 }
 .first-slide-wrapper {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/first-slide.jpg");
