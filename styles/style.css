@@ -36,7 +36,7 @@ a {
 }
 @media (max-width: 768px) {
   .first-slide-wrapper .first-slide h1 {
-    font-size: 2rem !important;
+    font-size: 4rem !important;
   }
   .first-slide-wrapper .first-slide h2 {
     font-size: 1.325rem !important;
@@ -56,8 +56,14 @@ a {
   }
 }
 @media (max-width: 576px) {
+  .first-slide-wrapper {
+    height: 80vh !important;
+  }
+  .first-slide-wrapper .first-slide {
+    height: calc(80vh - 100px) !important;
+  }
   .first-slide-wrapper .first-slide h1 {
-    font-size: 2.5rem !important;
+    font-size: 2.25rem !important;
   }
 }
 .first-slide-wrapper {
@@ -65,7 +71,7 @@ a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
 }
 .first-slide-wrapper .navbar-wrapper {
