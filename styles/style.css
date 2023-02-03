@@ -60,13 +60,13 @@ a {
     height: 50vh !important;
   }
   .first-slide-wrapper .navigation-bar {
-    height: 50px !important;
+    height: 65px !important;
   }
   .first-slide-wrapper .navigation-bar .logo {
-    font-size: 21px !important;
+    font-size: 28px !important;
   }
   .first-slide-wrapper .first-slide {
-    height: calc(50vh - 51px) !important;
+    height: calc(50vh - 66px) !important;
   }
   .first-slide-wrapper .first-slide h1 {
     font-size: 2.25rem !important;
