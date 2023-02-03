@@ -59,8 +59,14 @@ a {
   .first-slide-wrapper {
     height: 50vh !important;
   }
+  .first-slide-wrapper .navigation-bar {
+    height: 50px !important;
+  }
+  .first-slide-wrapper .navigation-bar .logo {
+    font-size: 21px !important;
+  }
   .first-slide-wrapper .first-slide {
-    height: calc(50vh - 101px) !important;
+    height: calc(50vh - 51px) !important;
   }
   .first-slide-wrapper .first-slide h1 {
     font-size: 2.25rem !important;
