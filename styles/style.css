@@ -57,13 +57,16 @@ a {
 }
 @media (max-width: 576px) {
   .first-slide-wrapper {
-    height: 80vh !important;
+    height: 50vh !important;
   }
   .first-slide-wrapper .first-slide {
-    height: calc(80vh - 100px) !important;
+    height: calc(50vh - 101px) !important;
   }
   .first-slide-wrapper .first-slide h1 {
     font-size: 2.25rem !important;
+  }
+  .first-slide-wrapper .first-slide .first-slide-h2 .inline {
+    flex-direction: column;
   }
 }
 .first-slide-wrapper {
@@ -166,7 +169,7 @@ a {
   line-height: 2.375rem;
 }
 .about-us-container .about-us-image img {
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .prices-container-wrapper {
@@ -239,7 +242,7 @@ a {
 }
 .tech-container .tech-list .tech-card {
   border: 1px solid #dce1e6;
-  border-radius: 5px;
+  border-radius: 15px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   min-height: 100px;
   padding: 1rem;
