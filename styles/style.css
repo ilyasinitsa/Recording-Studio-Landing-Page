@@ -74,7 +74,7 @@ a {
   .first-slide-wrapper .first-slide .first-slide-h2 .inline {
     flex-direction: column;
   }
-  .about-us-image .about-image {
+  .about-us-image div {
     height: 300px !important;
   }
   .social-links-container .social-links .social-link img {
