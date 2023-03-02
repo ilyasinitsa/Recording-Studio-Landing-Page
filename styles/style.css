@@ -74,12 +74,15 @@ a {
   .first-slide-wrapper .first-slide .first-slide-h2 .inline {
     flex-direction: column;
   }
+  .about-us-image .about-image {
+    height: 300px !important;
+  }
   .social-links-container .social-links .social-link img {
     height: 4rem !important;
   }
 }
 .first-slide-wrapper {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/first-slide.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/img_2451.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -177,10 +180,13 @@ a {
   font-size: 1.5rem;
   line-height: 2.375rem;
 }
-
-.about-us-container .about-us-image img {
+.about-us-container .about-us-image .about-image {
   border-radius: 15px;
-
+  background: url("./../img/img_2452.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
 }
 
 .prices-container-wrapper {
@@ -216,7 +222,7 @@ a {
   font-size: 1.5rem;
   font-family: "Dela Gothic One";
   border-radius: 15px 15px 0 0;
-  background: linear-gradient(45deg, #3EADCF, #63A4FF);
+  background: linear-gradient(45deg, #e63877, #dad17a);
   height: 62%;
   text-align: center;
   align-content: center;
