@@ -285,6 +285,9 @@ a {
 .address-wrapper .address-container-wrapper .row .address-map {
   height: 500px;
 }
+.address-wrapper .address-container-wrapper .row .address-map iframe{
+  border-radius: 15px;
+}
 .address-wrapper .address-container-wrapper .row .address-info .address-info-title {
   color: #F7E6A6;
   font-family: "Dela Gothic One";
