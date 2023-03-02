@@ -137,18 +137,18 @@ a {
   height: calc(100vh - 101px);
 }
 .first-slide-wrapper .first-slide .first-slide-heading {
-  padding-top: 3rem;
+  padding-top: 20%;
   height: auto;
 }
 .first-slide-wrapper .first-slide .first-slide-heading h1 {
-  color: #eee;
+  color: #fff;
   font-family: "Swiss 721 Black Extended BT";
   font-style: normal;
   font-weight: 400;
-  font-size: 6.75rem;
+  font-size: 7.75rem;
 }
 .first-slide-wrapper .first-slide .first-slide-heading h2 {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 1);
   font-family: "Dela Gothic One";
   font-style: normal;
   font-weight: 400;
