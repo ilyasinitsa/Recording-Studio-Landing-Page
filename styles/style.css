@@ -68,11 +68,16 @@ a {
   .first-slide-wrapper .first-slide {
     height: calc(50vh - 66px) !important;
   }
-  .first-slide-wrapper .first-slide h1 {
-    font-size: 2.25rem !important;
+  .first-slide-wrapper .first-slide .first-slide-heading{
+    justify-content: start!important;
+    padding-top: 2rem!important;
   }
-  .first-slide-wrapper .first-slide .first-slide-h2 .inline {
-    flex-direction: column;
+  .first-slide-wrapper .first-slide h1 {
+    font-size: 3rem !important;
+  }
+  .first-slide-wrapper .first-slide .first-slide-h2 {
+    margin-top: -1.5rem!important;
+    font-size: 1.05rem!important;
   }
   .about-image {
     height: 300px!important;
@@ -80,6 +85,14 @@ a {
 
   .social-links-container .social-links .social-link img {
     height: 4rem !important;
+  }
+}
+@media (max-width: 400px) {
+  .first-slide-wrapper .first-slide h1 {
+    font-size: 2.25rem !important;
+  }
+  .first-slide-wrapper .first-slide .first-slide-h2 {
+    font-size: 0.9rem!important;
   }
 }
 .first-slide-wrapper {
@@ -130,16 +143,14 @@ a {
   gap: 1rem;
 }
 .first-slide-wrapper .first-slide .first-slide-heading h1 {
-  color: #fff;
-  -webkit-text-stroke: 2px #fff;
-  -webkit-text-fill-color: transparent;
+  color: #eee;
   font-family: "Swiss 721 Black Extended BT";
   font-style: normal;
   font-weight: 400;
   font-size: 6.75rem;
 }
 .first-slide-wrapper .first-slide .first-slide-heading h2 {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.5);
   font-family: "Dela Gothic One";
   font-style: normal;
   font-weight: 400;
@@ -209,7 +220,7 @@ a {
   font-size: 1.25rem;
 }
 .prices-container-wrapper .prices-container .prices-note a {
-  color: #e63877;
+  color: #63A4FF;
 }
 .prices-container-wrapper .prices-container .price-cards .price-card-wrapper .price-card {
   background: #fff;
