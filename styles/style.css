@@ -1,14 +1,45 @@
+/*# sourceMappingURL=style.css.map */
 * {
   margin: 0;
   padding: 0;
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
   margin: 0;
   padding: 0;
 }
 
-ol, ul, li {
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+ol {
+  list-style: none !important;
+  margin: 0 !important;
+}
+
+ul {
+  list-style: none !important;
+  margin: 0 !important;
+}
+
+li {
   list-style: none !important;
   margin: 0 !important;
 }
@@ -17,82 +48,6 @@ a {
   text-decoration: none !important;
 }
 
-@media (max-width: 992px) {
-  .first-slide-wrapper .first-slide h1 {
-    font-size: 5rem !important;
-  }
-  .first-slide-wrapper .first-slide h2 {
-    font-size: 1.325rem !important;
-  }
-  .first-slide-wrapper .first-slide .prices-button {
-    font-size: 1.25rem !important;
-  }
-  .first-slide-wrapper .navigation-bar .logo {
-    justify-self: center;
-  }
-  .first-slide-wrapper .navigation-bar .links {
-    display: none !important;
-  }
-}
-@media (max-width: 768px) {
-  .first-slide-wrapper .first-slide h1 {
-    font-size: 4rem !important;
-  }
-  .first-slide-wrapper .first-slide h2 {
-    font-size: 1.325rem !important;
-  }
-  .first-slide-wrapper .first-slide .prices-button {
-    font-size: 1.25rem !important;
-  }
-  .address-map {
-    height: 300px !important;
-  }
-  .big-title {
-    font-size: 1.5rem !important;
-  }
-  .smaller-text {
-    font-size: 1.125rem !important;
-    line-height: initial !important;
-  }
-}
-@media (max-width: 576px) {
-  .first-slide-wrapper {
-    height: 50vh !important;
-  }
-  .first-slide-wrapper .navigation-bar {
-    height: 65px !important;
-  }
-  .first-slide-wrapper .navigation-bar .logo {
-    font-size: 28px !important;
-  }
-  .first-slide-wrapper .first-slide {
-    height: calc(50vh - 66px) !important;
-  }
-  .first-slide-wrapper .first-slide .first-slide-heading {
-    padding-top: 1rem!important;
-  }
-  .first-slide-wrapper .first-slide h1 {
-    font-size: 3rem !important;
-  }
-  .first-slide-wrapper .first-slide .first-slide-h2 {
-    font-size: 1.05rem!important;
-  }
-  .about-image {
-    height: 300px!important;
-  }
-
-  .social-links-container .social-links .social-link img {
-    height: 4rem !important;
-  }
-}
-@media (max-width: 400px) {
-  .first-slide-wrapper .first-slide h1 {
-    font-size: 2.25rem !important;
-  }
-  .first-slide-wrapper .first-slide .first-slide-h2 {
-    font-size: 0.9rem!important;
-  }
-}
 .first-slide-wrapper {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/IMG_2451.JPG");
   background-size: cover;
@@ -116,7 +71,7 @@ a {
   font-weight: 400;
 }
 .first-slide-wrapper .navbar-wrapper .navbar-container .navigation-bar * {
-  color: #fff;
+  color: white;
 }
 .first-slide-wrapper .navbar-wrapper .navbar-container .navigation-bar > * {
   display: flex;
@@ -141,36 +96,18 @@ a {
   height: auto;
 }
 .first-slide-wrapper .first-slide .first-slide-heading h1 {
-  color: #fff;
+  color: white;
   font-family: "Swiss 721 Black Extended BT";
   font-style: normal;
   font-weight: 400;
   font-size: 7.75rem;
 }
 .first-slide-wrapper .first-slide .first-slide-heading h2 {
-  color: rgba(255, 255, 255, 1);
+  color: white;
   font-family: "Dela Gothic One";
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
-}
-.first-slide-wrapper .first-slide .first-slide-heading .prices-button {
-  font-family: "Dela Gothic One";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.625rem;
-  color: #000;
-  height: 70px;
-  background: #F7E6A6;
-  border-radius: 5px;
-  display: grid;
-  place-items: center;
-  margin-top: 34px;
-  transition: background 0.2s ease-in-out;
-  letter-spacing: 0.03em;
-}
-.first-slide-wrapper .first-slide .first-slide-heading .prices-button:hover {
-  background: hsl(47deg, 38%, 67%);
 }
 
 .about-us-container {
@@ -190,13 +127,9 @@ a {
   font-size: 1.5rem;
   line-height: 2.375rem;
 }
-
 .about-us-container .about-us-image .about-image {
   border-radius: 15px;
-  background: url("./../img/IMG_2452.JPG");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  object-fit: cover;
   height: 500px;
 }
 
@@ -283,7 +216,7 @@ a {
 .tech-container .tech-list .tech-card .tech-card-info .tech-card-description {
   font-family: "Montserrat";
   font-size: 1rem;
-  color: #666;
+  color: #666666;
 }
 
 .address-wrapper {
@@ -294,7 +227,7 @@ a {
 .address-wrapper .address-container-wrapper .row .address-map {
   height: 500px;
 }
-.address-wrapper .address-container-wrapper .row .address-map iframe{
+.address-wrapper .address-container-wrapper .row .address-map iframe {
   border-radius: 15px;
 }
 .address-wrapper .address-container-wrapper .row .address-info .address-info-title {
@@ -305,7 +238,7 @@ a {
   font-size: 2rem;
 }
 .address-wrapper .address-container-wrapper .row .address-info .address-info-description {
-  color: #eee;
+  color: #EEE;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 300;
@@ -325,7 +258,7 @@ a {
   font-family: "Dela Gothic One";
 }
 .social-links-wrapper .social-links-container .social-links-description {
-  color: #fff;
+  color: white;
   font-size: 1.5rem;
   font-family: "Montserrat";
 }
@@ -340,7 +273,83 @@ footer {
   font-family: "Anonymous Pro", monospace;
   font-size: 1rem;
   background: #343745;
-  color: #fff;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .first-slide-wrapper .first-slide h1 {
+    font-size: 5rem !important;
+  }
+  .first-slide-wrapper .first-slide h2 {
+    font-size: 1.325rem !important;
+  }
+  .first-slide-wrapper .first-slide .prices-button {
+    font-size: 1.25rem !important;
+  }
+  .first-slide-wrapper .navigation-bar .logo {
+    justify-self: center;
+  }
+  .first-slide-wrapper .navigation-bar .links {
+    display: none !important;
+  }
+}
+@media (max-width: 768px) {
+  .first-slide-wrapper .first-slide h1 {
+    font-size: 4rem !important;
+  }
+  .first-slide-wrapper .first-slide h2 {
+    font-size: 1.325rem !important;
+  }
+  .first-slide-wrapper .first-slide .prices-button {
+    font-size: 1.25rem !important;
+  }
+  .address-map {
+    height: 300px !important;
+  }
+  .big-title {
+    font-size: 1.5rem !important;
+  }
+  .smaller-text {
+    font-size: 1.125rem !important;
+    line-height: initial !important;
+  }
+}
+@media (max-width: 576px) {
+  .first-slide-wrapper {
+    height: 50vh !important;
+  }
+  .first-slide-wrapper .navigation-bar {
+    height: 65px !important;
+  }
+  .first-slide-wrapper .navigation-bar .logo {
+    font-size: 28px !important;
+  }
+  .first-slide-wrapper .first-slide {
+    height: calc(50vh - 66px) !important;
+  }
+  .first-slide-wrapper .first-slide .first-slide-heading {
+    padding-top: 1rem !important;
+  }
+  .first-slide-wrapper .first-slide h1 {
+    font-size: 3rem !important;
+  }
+  .first-slide-wrapper .first-slide .first-slide-h2 {
+    font-size: 1.05rem !important;
+  }
+  .about-image {
+    height: 300px !important;
+  }
+  .social-links-container .social-links .social-link img {
+    height: 4rem !important;
+  }
+}
+@media (max-width: 400px) {
+  .first-slide-wrapper .first-slide h1 {
+    font-size: 2.25rem !important;
+  }
+  .first-slide-wrapper .first-slide .first-slide-h2 {
+    font-size: 0.9rem !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,275 +2,315 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="./img/logo.svg" type="image/svg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Montserrat:wght@200;300;400&family=Zen+Dots&display=swap"
-    rel="stylesheet">
+    <!-- Favicon setup -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
 
-  <!-- Bootstrap v5 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"
+        crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Montserrat:wght@200;300;400&family=Zen+Dots&display=swap"
+        rel="stylesheet">
 
-  <!-- User CSS -->
-  <link rel="stylesheet" href="styles/fonts.css">
-  <link rel="stylesheet" href="styles/style.css">
-  <title>33degrees</title>
+    <!-- Bootstrap v5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous">
+
+    <!-- User CSS -->
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>33degrees</title>
 
 </head>
 
 <body>
 
-  <!-- Первый слайд -->
-  <div class="first-slide-wrapper">
-    <div class="navbar-wrapper">
-      <div class="container navbar-container">
-        <nav class="row navigation-bar">
-          <div class="col-12 col-lg-3 text-center logo">33°S</div>
-          <ul class="col links">
-            <li><a href="#about-us" class="link">О нас</a></li>
-            <li><a href="#prices" class="link">Цены</a></li>
-            <li><a href="#tech" class="link">Оборудование</a></li>
-            <li><a href="#contacts" class="link">Контакты</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-    <div class="container d-flex flex-column first-slide">
-      <div class="row row-cols-1 gy-0 d-flex flex-column justify-content-start flex-grow-1 h-100 first-slide-heading">
-        <div class="col">
-          <h1 class="first-slide-h1">
-            33degrees
-          </h1>
-        </div>
-        <div class="col">
-          <h2 class="first-slide-h2">
-            <div class="inline d-flex flex-direction-row">
-              <p class="m-0 p-0">Студия звукозаписи г. Минск </p>
+    <!-- Первый слайд -->
+    <header class="first-slide-wrapper">
+        <div class="navbar-wrapper">
+            <div class="container navbar-container">
+                <nav class="row navigation-bar">
+                    <div class="col-12 col-lg-3 text-center logo">33°S</div>
+                    <ul class="col links">
+                        <li><a href="#about-us" class="link">О нас</a></li>
+                        <li><a href="#prices" class="link">Цены</a></li>
+                        <li><a href="#tech" class="link">Оборудование</a></li>
+                        <li><a href="#contacts" class="link">Контакты</a></li>
+                    </ul>
+                </nav>
             </div>
-          </h2>
         </div>
-      </div>
-    </div>
-  </div>
+        <div class="container d-flex flex-column first-slide">
+            <div
+                class="row row-cols-1 gy-0 d-flex flex-column justify-content-start flex-grow-1 h-100 first-slide-heading">
+                <div class="col">
+                    <h1 class="first-slide-h1">
+                        33degrees
+                    </h1>
+                </div>
+                <div class="col">
+                    <h2 class="first-slide-h2">
+                        <div class="inline d-flex flex-direction-row">
+                            <p class="m-0 p-0">Студия звукозаписи г. Минск </p>
+                        </div>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </header>
 
-  <!-- Блок "О нас" -->
-  <div id="about-us" class="container about-us-container">
-    <div class="row">
-      <div class="col-lg d-flex flex-column justify-content-center about-us-text">
-        <p class="about-us-heading big-title">Кто мы такие?</p>
-        <p class="about-us-description smaller-text">33 degrees - это не просто студия звукозаписи, а также творческое
-          объедение, где ты можешь стать частью всего этого. У нас ты можешь записать трек, альбом, инструменты, озвучку
-          чего-либо. В процессе работы мы помогаем погрузиться тебе в максимально комфортную и творческую атмосферу.</p>
-      </div>
-      <div class="col-lg about-us-image">
-        <div class="about-image">
+    <!-- Блок "О нас" -->
+    <article id="about-us"
+        class="container about-us-container">
+        <div class="row">
+            <div class="col-lg d-flex flex-column justify-content-center about-us-text">
+                <p class="about-us-heading big-title">Кто мы такие?</p>
+                <p class="about-us-description smaller-text">33 degrees - это не просто студия звукозаписи, а также
+                    творческое
+                    объедение, где ты можешь стать частью всего этого. У нас ты можешь записать трек, альбом,
+                    инструменты, озвучку
+                    чего-либо. В процессе работы мы помогаем погрузиться тебе в максимально комфортную и творческую
+                    атмосферу.</p>
+            </div>
+            <div class="col-lg about-us-image">
+                <img class="img-fluid about-image"
+                    src="img/IMG_2452.JPG"
+                    alt="Изображение микрофона и монитора на фоне звукозаписывающей студии">
 
+                </img>
+            </div>
         </div>
-        <!-- <img class="img" src="./img/IMG_2452.jpg"> -->
-      </div>
-    </div>
-  </div>
+    </article>
 
-  <!-- Блок "Цены" -->
-  <div id="prices" class="container-fluid prices-container-wrapper">
-    <div class="container prices-container">
-      <div class="row prices-title-wrapper">
-        <div class="col">
-          <h3 class="prices-container-title big-title">Сколько это стоит?</h3>
-        </div>
-      </div>
-      <div class="row my-4 prices-note">
-        <p class="col smaller-text">Для осуществления заказа напишите нам в личные сообщения <a
-            href="https://instagram.com/_u/33degrees.stu/" class="instagram-link">Instagram</a></p>
-      </div>
-      <div class="row gy-5 d-flex justify-content-center price-cards">
-        <div class="col-12 col-sm-6 col-lg-3 price-card-wrapper">
-          <div class="d-flex flex-column price-card">
-            <div class="item-title">Запись</div>
-            <div class="item-price flex-grow-1">25 byn/час</div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-3 price-card-wrapper">
-          <div class="d-flex flex-column price-card">
-            <div class="item-title">
-              <p class="m-0">Сведение</p>
-              <p class="m-0">(+мастеринг)</p>
+    <!-- Блок "Цены" -->
+    <article id="prices"
+        class="container-fluid prices-container-wrapper">
+        <div class="container prices-container">
+            <div class="row prices-title-wrapper">
+                <div class="col">
+                    <h3 class="prices-container-title big-title">Сколько это стоит?</h3>
+                </div>
             </div>
-            <div class="item-price flex-grow-1">
-              <p class="m-0">75 byn</p>
-              <p class="m-0 fs-6">(цена фиксированная)</p>
+            <div class="row my-4 prices-note">
+                <p class="col smaller-text">Для осуществления заказа напишите нам в личные сообщения <a
+                        href="https://instagram.com/_u/33degrees.stu/"
+                        class="instagram-link">Instagram</a></p>
             </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-3 price-card-wrapper">
-          <div class="d-flex flex-column price-card">
-            <div class="item-title">Написание бита</div>
-            <div class="item-price flex-grow-1">от 125 byn</div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-3 price-card-wrapper">
-          <div class="d-flex flex-column price-card">
-            <div class="item-title">Написание текста</div>
-            <div class="item-price flex-grow-1">от 125 byn</div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-3 price-card-wrapper">
-          <div class="d-flex flex-column price-card">
-            <div class="item-title">Трек "под ключ"</div>
-            <div class="item-price flex-grow-1">500 byn</div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-3 price-card-wrapper">
-          <div class="d-flex flex-column price-card">
-            <div class="item-title">
-              <p class="m-0">Ночной кейс</p>
-              <p class="m-0">(с 22:00 до 01:00)</p>
+            <div class="row gy-5 d-flex justify-content-center price-cards">
+                <div class="col-12 col-sm-6 col-lg-3 price-card-wrapper">
+                    <div class="d-flex flex-column price-card">
+                        <div class="item-title">Запись</div>
+                        <div class="item-price flex-grow-1">25 byn/час</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 price-card-wrapper">
+                    <div class="d-flex flex-column price-card">
+                        <div class="item-title">
+                            <p class="m-0">Сведение</p>
+                            <p class="m-0">(+мастеринг)</p>
+                        </div>
+                        <div class="item-price flex-grow-1">
+                            <p class="m-0">75 byn</p>
+                            <p class="m-0 fs-6">(цена фиксированная)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 price-card-wrapper">
+                    <div class="d-flex flex-column price-card">
+                        <div class="item-title">Написание бита</div>
+                        <div class="item-price flex-grow-1">от 125 byn</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 price-card-wrapper">
+                    <div class="d-flex flex-column price-card">
+                        <div class="item-title">Написание текста</div>
+                        <div class="item-price flex-grow-1">от 125 byn</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 price-card-wrapper">
+                    <div class="d-flex flex-column price-card">
+                        <div class="item-title">Трек "под ключ"</div>
+                        <div class="item-price flex-grow-1">500 byn</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 price-card-wrapper">
+                    <div class="d-flex flex-column price-card">
+                        <div class="item-title">
+                            <p class="m-0">Ночной кейс</p>
+                            <p class="m-0">(с 22:00 до 01:00)</p>
+                        </div>
+                        <div class="item-price flex-grow-1">115 byn</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 price-card-wrapper">
+                    <div class="d-flex flex-column price-card">
+                        <div class="item-title">
+                            <p class="m-0">Ночной кейс</p>
+                            <p class="m-0">(с 22:00 до 04:00)</p>
+                        </div>
+                        <div class="item-price flex-grow-1">200 byn</div>
+                    </div>
+                </div>
             </div>
-            <div class="item-price flex-grow-1">115 byn</div>
-          </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3 price-card-wrapper">
-          <div class="d-flex flex-column price-card">
-            <div class="item-title">
-              <p class="m-0">Ночной кейс</p>
-              <p class="m-0">(с 22:00 до 04:00)</p>
-            </div>
-            <div class="item-price flex-grow-1">200 byn</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    </article>
 
-  <!-- Блок "Техника" -->
-  <div id="tech" class="container tech-container">
-    <div class="row">
-      <div class="col-lg d-flex flex-column justify-content-center tech-text">
-        <p class="tech-heading big-title">С помощью чего пишем?</p>
-        <p class="tech-description smaller-text">Для того чтобы сделать ваш трек наивысшего качества, 33 degrees
-          использует только самое современное оборудование.</p>
-      </div>
-      <div class="col-lg d-flex flex-column tech-list">
-        <div class="tech-card d-flex">
-          <div class="tech-card-icon d-flex justify-content-center align-items-center">
-            <img src="./img/icons/headphone-earphone-music-alt.svg" alt="Наушники" height="50" width="50">
-          </div>
-          <div class="tech-card-info d-flex flex-column">
-            <div class="tech-card-name">Наушники</div>
-            <div class="tech-card-description flex-grow-1 d-flex flex-column justify-content-center">
-              <p class="m-0 p-0">• Sennheiser HD 280 Pro</p>
-              <p class="m-0 p-0">• Audio-Technica ATH-M20x</p>
+    <!-- Блок "Техника" -->
+    <article id="tech"
+        class="container tech-container">
+        <div class="row">
+            <div class="col-lg d-flex flex-column justify-content-center tech-text">
+                <p class="tech-heading big-title">С помощью чего пишем?</p>
+                <p class="tech-description smaller-text">Для того чтобы сделать ваш трек наивысшего качества, 33 degrees
+                    использует только самое современное оборудование.</p>
             </div>
-          </div>
-        </div>
-        <div class="tech-card d-flex">
-          <div class="tech-card-icon d-flex justify-content-center align-items-center">
-            <img src="./img/icons/music-note.svg" alt="Звуковая карта" height="50" width="50">
-          </div>
-          <div class="tech-card-info d-flex flex-column">
-            <div class="tech-card-name">Звуковая карта</div>
-            <div class="tech-card-description flex-grow-1 d-flex flex-column justify-content-center">• Focusrite
-              Scarlett 8i6</div>
-          </div>
-        </div>
-        <div class="tech-card d-flex">
-          <div class="tech-card-icon d-flex justify-content-center align-items-center">
-            <img src="./img/icons/Vector.svg" alt="Микрофон" height="50" width="50">
-          </div>
-          <div class="tech-card-info d-flex flex-column">
-            <div class="tech-card-name">Микрофон</div>
-            <div class="tech-card-description flex-grow-1 d-flex flex-column justify-content-center">• Rode NT1-Kit
+            <div class="col-lg d-flex flex-column tech-list">
+                <div class="tech-card d-flex">
+                    <div class="tech-card-icon d-flex justify-content-center align-items-center">
+                        <img src="./img/icons/headphone-earphone-music-alt.svg"
+                            alt="Наушники"
+                            height="50"
+                            width="50">
+                    </div>
+                    <div class="tech-card-info d-flex flex-column">
+                        <div class="tech-card-name">Наушники</div>
+                        <div class="tech-card-description flex-grow-1 d-flex flex-column justify-content-center">
+                            <p class="m-0 p-0">• Sennheiser HD 280 Pro</p>
+                            <p class="m-0 p-0">• Audio-Technica ATH-M20x</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-card d-flex">
+                    <div class="tech-card-icon d-flex justify-content-center align-items-center">
+                        <img src="./img/icons/music-note.svg"
+                            alt="Звуковая карта"
+                            height="50"
+                            width="50">
+                    </div>
+                    <div class="tech-card-info d-flex flex-column">
+                        <div class="tech-card-name">Звуковая карта</div>
+                        <div class="tech-card-description flex-grow-1 d-flex flex-column justify-content-center">•
+                            Focusrite
+                            Scarlett 8i6</div>
+                    </div>
+                </div>
+                <div class="tech-card d-flex">
+                    <div class="tech-card-icon d-flex justify-content-center align-items-center">
+                        <img src="./img/icons/Vector.svg"
+                            alt="Микрофон"
+                            height="50"
+                            width="50">
+                    </div>
+                    <div class="tech-card-info d-flex flex-column">
+                        <div class="tech-card-name">Микрофон</div>
+                        <div class="tech-card-description flex-grow-1 d-flex flex-column justify-content-center">• Rode
+                            NT1-Kit
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-card d-flex">
+                    <div class="tech-card-icon d-flex justify-content-center align-items-center">
+                        <img src="./img/icons/volume-up.svg"
+                            alt="Студийные мониторы"
+                            height="50"
+                            width="50">
+                    </div>
+                    <div class="tech-card-info d-flex flex-column">
+                        <div class="tech-card-name">Студийные мониторы</div>
+                        <div class="tech-card-description flex-grow-1 d-flex flex-column justify-content-center">
+                            <p class="m-0 p-0">• Yamaha HS7</p>
+                            <p class="m-0 p-0">• JBL 305P</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="tech-card d-flex">
-          <div class="tech-card-icon d-flex justify-content-center align-items-center">
-            <img src="./img/icons/volume-up.svg" alt="Студийные мониторы" height="50" width="50">
-          </div>
-          <div class="tech-card-info d-flex flex-column">
-            <div class="tech-card-name">Студийные мониторы</div>
-            <div class="tech-card-description flex-grow-1 d-flex flex-column justify-content-center">
-              <p class="m-0 p-0">• Yamaha HS7</p>
-              <p class="m-0 p-0">• JBL 305P</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    </article>
 
-  <!-- Блок "Адрес" -->
-  <div class="address-wrapper">
-    <div id="contacts" class="container address-container-wrapper">
-      <div class="row">
-        <div class="col-lg-6 address-map">
-          <script type="text/javascript" charset="utf-8" async
-            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af62b048c2ccac28fa08713f878cd3ff3c6471e980ee0d2e8366e678d590b45de&amp;width=100%25&amp;height=100%25&amp;lang=ru_RU&amp;scroll=true"></script>
-        </div>
-        <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <div class="address-info d-flex flex-column justify-content-center py-4 py-lg-0 px-lg-5">
-            <div class="address-info-title big-title">Как нас найти?</div>
-            <div class="address-info-description smaller-text my-3">
-              Найти нас вы можете по адресу: г. Минск, ул. Нагорный переулок, 6Б.
-              <br><br>
-              Моб. номер: <a href="tel:+375296841082">+375 (29) 684-10-82</a>
+    <!-- Блок "Адрес" -->
+    <article class="address-wrapper">
+        <div id="contacts"
+            class="container address-container-wrapper">
+            <div class="row">
+                <div class="col-lg-6 address-map">
+                    <script type="text/javascript"
+                        charset="utf-8"
+                        async
+                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af62b048c2ccac28fa08713f878cd3ff3c6471e980ee0d2e8366e678d590b45de&amp;width=100%25&amp;height=100%25&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+                <div class="col-lg-6 d-flex flex-column justify-content-center">
+                    <div class="address-info d-flex flex-column justify-content-center py-4 py-lg-0 px-lg-5">
+                        <div class="address-info-title big-title">Как нас найти?</div>
+                        <div class="address-info-description smaller-text my-3">
+                            Найти нас вы можете по адресу: г. Минск, ул. Нагорный переулок, 6Б.
+                            <br><br>
+                            Моб. номер: <a href="tel:+375296841082">+375 (29) 684-10-82</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
+    </article>
 
-  <!-- Блок "Социальные сети" -->
-  <div class="container-fluid social-links-wrapper">
-    <div class="container social-links-container">
-      <div class="row">
-        <div class="col d-flex flex-column align-items-center py-4">
-          <div class="social-links-title big-title">Заинтересованы?</div>
-          <div class="w-75 w-lg-50 my-3 text-center social-links-description smaller-text">Подписывайтесь на наши
-            социальные сети по ссылкам ниже</div>
-          <div class="social-links d-flex flex-row">
-            <div class="social-link instagram">
-              <a href="https://instagram.com/33degrees.stu/">
-                <img src="./img/icons/socials/icons8-instagram.svg" alt="">
-              </a>
+    <!-- Блок "Социальные сети" -->
+    <article class="container-fluid social-links-wrapper">
+        <div class="container social-links-container">
+            <div class="row">
+                <div class="col d-flex flex-column align-items-center py-4">
+                    <div class="social-links-title big-title">Заинтересованы?</div>
+                    <div class="w-75 w-lg-50 my-3 text-center social-links-description smaller-text">Подписывайтесь на
+                        наши
+                        социальные сети по ссылкам ниже</div>
+                    <div class="social-links d-flex flex-row">
+                        <div class="social-link instagram">
+                            <a href="https://instagram.com/33degrees.stu/">
+                                <img src="./img/icons/socials/icons8-instagram.svg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="social-link vkcom">
+                            <a href="https://vk.com/33degrees">
+                                <img src="./img/icons/socials/icons8-vk-com.svg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="social-link youtube">
+                            <a href="https://www.youtube.com/channel/UCSKK6nL1NKaTZv34L8kzQwg">
+                                <img src="./img/icons/socials/icons8-youtube.svg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="social-link tiktok">
+                            <a href="https://www.tiktok.com/@33degreesstu/">
+                                <img src="./img/icons/socials/icons8-tiktok.svg"
+                                    alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="social-link vkcom">
-              <a href="https://vk.com/33degrees">
-                <img src="./img/icons/socials/icons8-vk-com.svg" alt="">
-              </a>
-            </div>
-            <div class="social-link youtube">
-              <a href="https://youtube.com/@33degress">
-                <img src="./img/icons/socials/icons8-youtube.svg" alt="">
-              </a>
-            </div>
-            <div class="social-link tiktok">
-              <a href="https://www.tiktok.com/@33degreesstu/">
-                <img src="./img/icons/socials/icons8-tiktok.svg" alt="">
-              </a>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
+    </article>
 
-  <footer class="container-fluid">
-    <div class="row py-4">
-      <div class="col text-center">© 2022. Все права защищены</div>
-    </div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    <footer class="container-fluid">
+        <div class="row py-4">
+            <div class="col text-center">© 2023. Все права защищены</div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
